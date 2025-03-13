@@ -1,0 +1,14 @@
+.contact > p {
+  text-align: center;
+  width: 64.812;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .contact > p {
+    width: 90%;
+    max-width: 20rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,41 @@
+footer {
+  background-color: var(--black);
+  height: 13.5rem;
+  width: 100%;
+}
+
+footer div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 13.5rem;
+  gap: 1.875rem;
+}
+
+footer div a:last-of-type {
+  padding-right: 2.5rem;
+}
+
+footer div a {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+@media (max-width: 768px) {
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  footer div a {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  footer div a:last-of-type {
+    padding-right: 0;
+  }
+}
